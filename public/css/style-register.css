@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+
+}
+
+
+header{
+    background: yellow;  
+    border-bottom: solid 3px black;
+}
+
+.header-logo{
+    width: 200px;
+    height: 60px;
+}
+
+
+.header-superior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.header-superior .form .boton-buscar{
+    height: 36px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+header .form input{
+    width: 300px;
+    height: 30px;
+}
+
+header .form p{
+    padding-left: 300px;
+}
+
+.header-inferior{
+    border-top: solid 2px black;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    border: solid 1px black;
+}
+
+header nav .general-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav .general-nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav .general-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav .login-buttons{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav .login-buttons li{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav .login-buttons a{
+    text-decoration: none;
+    color: black;
+}
+
+.intereses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    max-width: 200px;
+    padding: 30px;
+    background: grey;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+footer{
+    background: rgba(214, 213, 213, 0.985);
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer section{
+    align-self: center;
+    max-width: 300px;
+    padding-top: 3rem;
+    position: relative;
+}
+
+footer i {
+    color: blue;
+    padding-left: 100px;
+    font-size: 50px;
+}
+
+footer h3{
+    color: black;
+}
